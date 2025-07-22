@@ -5,11 +5,14 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && node deploy.cjs",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "node deploy.cjs"
   },
   "dependencies": {
+    "dotenv": "^17.2.0",
+    "ftp-deploy": "^2.4.7",
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
   },
