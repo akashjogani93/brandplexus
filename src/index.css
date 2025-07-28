@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+.cursor {
+  transition: transform 0.1s ease;
+  mix-blend-mode: difference;
+}

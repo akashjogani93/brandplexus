@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}", // Scans all JS/TS/JSX/TSX files in src
   ],
   theme: {
-    extend: {},
+    extend: {
+      transitionProperty: {
+        'transform-opacity': 'transform, opacity',
+      }
+    }
   },
   plugins: [],
 };
