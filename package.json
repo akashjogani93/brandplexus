@@ -11,10 +11,12 @@
     "deploy": "node deploy.cjs"
   },
   "dependencies": {
+    "@splinetool/react-spline": "^4.1.0",
     "@studio-freight/lenis": "^1.0.42",
     "dotenv": "^17.2.0",
     "framer-motion": "^12.23.11",
     "ftp-deploy": "^2.4.7",
+    "lucide-react": "^0.543.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-router-dom": "^7.7.1",

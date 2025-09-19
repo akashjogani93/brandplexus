@@ -6,8 +6,8 @@ export default {
   ],
   theme: {
     extend: {
-      transitionProperty: {
-        'transform-opacity': 'transform, opacity',
+      height: {
+        'screen': '100vh',
       }
     }
   },
